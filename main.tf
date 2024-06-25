@@ -33,5 +33,21 @@ module "database" {
  subnet = module.vpc.public_subnet_id
  prv_subnet = module.vpc.private_subnet_id
  vpc = module.vpc.vpc_id
- vpc_security_group_ids = module.compute.sg-id
+ sg-id = module.compute.sg-id
+}
+
+resource "aws_s3_bucket" "my-tfstate-bucket" {
+  bucket = var.my-tfstate-bucket
+
+  tags = {
+    Name        = "My bucket"
+  }
+}
+
+terraform {
+  backend "s3" {
+     bucket = var.my-tfstate-bucket
+     key = "./terraform.tfstate"
+     region = var.aws_region
+  }
 }
