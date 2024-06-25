@@ -36,18 +36,10 @@ module "database" {
  sg-id = module.compute.sg-id
 }
 
-resource "aws_s3_bucket" "my-tfstate-bucket" {
-  bucket = var.my-tfstate-bucket
-
-  tags = {
-    Name        = "My bucket"
-  }
-}
-
 terraform {
   backend "s3" {
-     bucket = var.my-tfstate-bucket
+     bucket = "YOUR_BUCKET_NAME"
      key = "./terraform.tfstate"
-     region = var.aws_region
+     region = "us-east-1"
   }
 }
