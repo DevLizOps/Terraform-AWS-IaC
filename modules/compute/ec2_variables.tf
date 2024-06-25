@@ -18,3 +18,7 @@ variable "subnet" {
 variable "prv_subnet" {
  description = "The private subnet's ID."
 }
+
+variable "vpc" {
+ description = "The VPC's ID."
+}

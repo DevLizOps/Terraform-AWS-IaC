@@ -1,8 +1,8 @@
 resource "aws_db_instance" "lizzM-RDS" {
   allocated_storage    = var.storage
   db_name              = var.db_name
-  db_subnet_group_name = aws_db_subnet_group.lizzM-db-subnet-group
-  vpc_security_group_ids = ["${var.vpc_security_group_ids}"]
+  db_subnet_group_name = aws_db_subnet_group.lizzM-db-subnet-group.name
+  vpc_security_group_ids = ["${var.sg-id}"]
   engine               = var.engine
   engine_version       = var.engine_version
   instance_class       = var.instance_class
