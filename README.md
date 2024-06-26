@@ -1,6 +1,4 @@
-# AWS Infrastructure as Code Automation with Terraform
-
-## Table of Contents
+## Index / Índice
 
 - [English](#english-readme)
   - [Overview](#english-readme)
@@ -17,6 +15,8 @@
 ---
 
 ## English README
+
+# AWS Infrastructure as Code Automation with Terraform
 
 ### Overview
 
@@ -75,6 +75,8 @@ You can choose to modify `main.tf` and other configuration files in the `modules
 ---
 
 ## README en Español
+
+# Automatización de Infraestructura como Código en AWS con Terraform
 
 ### Visión General
 
