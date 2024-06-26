@@ -56,7 +56,8 @@
     }
     ```
 
-You can choose to modify `main.tf` and other configuration files in the `modules/` directory as needed to match your AWS account settings and requirements.
+> [!NOTE]
+> You can modify `main.tf` and other configuration files in the `modules/` directory as needed to match your AWS account settings and requirements.
 
 3. Initialize Terraform:
 
@@ -117,7 +118,8 @@ You can choose to modify `main.tf` and other configuration files in the `modules
     }
     ```
     
-Si lo deseas, puedes modificar el `main.tf` y otros archivos de configuración en el directorio `modules/` según sea necesario para que coincidan con la configuración de tu cuenta de AWS y tus requisitos.
+> [!NOTE]
+> Si lo deseas, puedes modificar el `main.tf` y otros archivos de configuración en el directorio `modules/` según sea necesario para que coincidan con la configuración de tu cuenta de AWS y tus requisitos.
 
 3. Inicializa Terraform:
 
