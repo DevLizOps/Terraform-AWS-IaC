@@ -40,7 +40,7 @@
 
 1. Clone the repository:
 
-       git clone https://github.com/LizzyMaken/Terraform-AWS-IaC.git
+       git clone https://github.com/DevLizOps/Terraform-AWS-IaC.git
 
        cd Terraform-AWS-IaC
 
@@ -101,7 +101,7 @@
 
 1. Clona el repositorio:
 
-       git clone https://github.com/LizzyMaken/Terraform-AWS-IaC.git
+       git clone https://github.com/DevLizOps/Terraform-AWS-IaC.git
 
        cd Terraform-AWS-IaC
 
